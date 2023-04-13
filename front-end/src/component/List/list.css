@@ -1,0 +1,57 @@
+.list{
+	color: rgb(255, 255, 255); 
+	margin: 40px 0px;
+}
+
+.wrapper{
+	position: relative;
+	display: flex;
+	align-items: center;
+  	height: 100%;
+}
+
+.list .container {
+	margin-left: 5.7rem;
+ 	display: flex;
+ 	width: max-content;
+ 	transform: translateX(10px);
+	transition: all 1s ease;
+	margin-top: 0.5rem;
+
+  }
+
+.title{
+ 	color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+	width: 100%;
+	margin-left: 7rem;
+ }
+ 
+
+.arrowleft{
+	background-color: rgba(190, 190, 190, 0.089);
+	position: absolute;
+	top: 20%;
+	bottom: 0;
+	z-index: 99;
+	left: 0;
+ 	margin-left: 48px;
+	cursor: pointer;
+}
+
+.arrowright{
+	background-color: rgba(190, 190, 190, 0.089);
+	position: absolute;
+	top: 20%;
+
+	bottom: 0;
+	z-index: 99;
+	right: 0;
+	/* margin: auto; */
+	cursor: pointer;
+	z-index: 99;
+ 	right: 0;
+
+}
