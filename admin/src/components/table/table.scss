@@ -1,0 +1,35 @@
+.table {
+
+    .tableitem {
+        display: flex;
+        align-items: center;
+
+        .tableImg {
+            object-fit: cover;
+            border-radius: 50%;
+            width: 35px;
+            height: 35px;
+            margin-right: 20px;
+        }
+    }
+
+    .status {
+     
+        .statusColor{
+            padding: 2px;
+            border-radius: 5px;
+             &.approved {
+                width: max-content;
+                background-color: rgba(0, 128, 0, 0.151);
+                color: green;
+            }
+    
+            &.pending {
+                width: max-content;
+                color: goldenrod;
+                background-color: rgba(189, 189, 3, 0.103);
+            }
+        }
+    }
+
+}

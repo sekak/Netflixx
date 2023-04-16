@@ -1,6 +1,78 @@
 .featured{
 	flex:2;
+	border-radius: 5px;
 	-webkit-box-shadow: 2px 4px 10px 1px rgba(67, 0, 0, 0.47);
 	box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
 	padding: 10px;
+
+	.top{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		
+		.title{
+			color: gray;
+			font-size: 20px;
+			font-weight: 500;
+		}
+	}
+
+	.bottom{
+		display: flex;
+		align-items: center;
+		justify-self: center;
+		flex-direction: column;
+		gap: 15px;
+
+		.featuredChat{
+			width: 130px;
+			height: 130px;
+		}
+
+		.title{
+			color: gray;
+			font-size: 12px;
+			font-weight: 500;
+		}
+		.amount{
+			font-size: 30px;
+  		}
+		.desc{
+			font-weight: 300;
+			color: gray;
+			font-size: 13px;
+			text-align: center;
+		}
+
+		.summary{
+			margin-top: 10px;
+			width: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+
+		.items{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+		.itemtitle{
+			font-size: 13px;
+			font-size: 300;
+			color: gray;
+		}
+		.percentage{
+			margin-top: 10px;
+			display: flex;
+			align-items: center;
+			&.positive{
+				color: green;
+			}
+			&.negative{
+				color: red;
+			}
+		}
+	}
 }

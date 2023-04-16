@@ -6,6 +6,7 @@ import { data } from '../../components/widget/data'
 import './home.scss'
 import Featured from '../../components/featured/Featured'
 import Chart from '../../components/chart/Chart'
+import Table from '../../components/table/Table'
 
 function Home() {
 
@@ -26,6 +27,10 @@ function Home() {
 				<div className='feature'>
 				 <Featured/>
 				 <Chart/>
+				 </div>
+				 <div className="listContainer">
+					<div className="listTitle">ListContainer</div>
+					<Table/>
 				 </div>
 			</div>
 		</div>
